@@ -1,3 +1,4 @@
+
 # Portafolio Camila García
 
 Este repositorio ahora incluye una base para un proyecto **full‑stack** con el frontend y el backend separados en carpetas distintas.
@@ -14,6 +15,7 @@ Endpoints disponibles:
 - `GET /api/photos` – lista las fotos cargadas.
 - `POST /api/photos` – carga una nueva foto (campo `photo`).
 
+
 La app utiliza PostgreSQL para guardar los metadatos de cada foto. Define la variable
 de entorno `DATABASE_URL` con tu cadena de conexión antes de iniciar el servidor:
 
@@ -22,6 +24,7 @@ DATABASE_URL="postgres://..." npm run dev
 ```
 
 Los archivos subidos se guardan localmente en `backend/uploads`.
+
 
 ## Frontend (Vite + Tailwind)
 
