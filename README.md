@@ -1,3 +1,4 @@
+
 # Portafolio Camila García
 
 Este repositorio ahora incluye una base para un proyecto **full‑stack** con el frontend y el backend separados en carpetas distintas.
@@ -25,3 +26,5 @@ npm run dev
 ```
 
 La carpeta `frontend` contiene el portafolio estático con Tailwind integrado; las solicitudes al backend se realizan vía `/api`.
+=======
+
