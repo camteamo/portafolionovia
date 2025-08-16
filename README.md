@@ -15,7 +15,16 @@ Endpoints disponibles:
 - `GET /api/photos` – lista las fotos cargadas.
 - `POST /api/photos` – carga una nueva foto (campo `photo`).
 
-Los archivos subidos se guardan en `backend/uploads`.
+
+La app utiliza PostgreSQL para guardar los metadatos de cada foto. Define la variable
+de entorno `DATABASE_URL` con tu cadena de conexión antes de iniciar el servidor:
+
+```bash
+DATABASE_URL="postgres://..." npm run dev
+```
+
+Los archivos subidos se guardan localmente en `backend/uploads`.
+
 
 ## Frontend (Vite + Tailwind)
 
@@ -26,5 +35,3 @@ npm run dev
 ```
 
 La carpeta `frontend` contiene el portafolio estático con Tailwind integrado; las solicitudes al backend se realizan vía `/api`.
-=======
-
